@@ -1,0 +1,125 @@
+/* Container */
+.why-choose-us-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 6rem 2rem ;
+    max-width: 1200px;
+    margin: 10px auto 10px;
+    gap: 2rem;
+    font-family: "Arial", sans-serif;
+    color: #000;
+  }
+  
+  /* Left Section: Text */
+  .text-section {
+    flex: 1;
+    width: 50%;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .heading span {
+    color: #fcb900;
+  }
+  
+  .features-list {
+    list-style-type: square;
+    padding-left: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .features-list li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .features-list strong {
+    color: #fcb900;
+  }
+  
+  /* Right Section: Statistics */
+  .stats-section {
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stat-circle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 50px rgba(252, 185, 0, 0.3);
+  }
+  
+  /* Circle Sizes */
+  .large {
+    width: 185px;
+    height: 185px;
+    background: #FCB90099;
+    box-shadow: 0px 0px 50px 0px #FFFFFF inset;
+    top:-65px;
+    left: 120px;
+    
+  }
+  
+  .medium {
+    width: 175px;
+    height: 175px;
+    background: #FEEBDC;
+    box-shadow: 0px 0px 50px 0px #FFFFFF inset;
+    top: -210px;
+    left: 100px;
+  }
+  
+  .small {
+    width: 125px;
+    height: 125px;
+    background: #FFFAE3;
+    box-shadow: 0px 0px 50px 0px #FFFFFF inset;
+    top: -92px;
+    right: 135px;
+  }
+  
+  /* Text in Circles */
+  .stat-circle span {
+    font-size: 1.5rem;
+  }
+  
+  .stat-circle p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #000;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .why-choose-us-container {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .stats-section {
+      position: static;
+    }
+  
+    .stat-circle {
+      margin: 1rem 0;
+    }
+  }
+  

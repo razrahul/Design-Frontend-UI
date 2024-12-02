@@ -1,0 +1,49 @@
+/* AboutSection.css */
+
+/* Background for img1 */
+.img1-background {
+  position: absolute;
+  width: 282px;
+  height: 250px;
+  top: 0  px;
+  left: 50px;
+  gap: 0px;
+  border-radius: 40px 0px 0px 0px;
+  opacity: 0px;
+
+  /* margin-top: 180px; Adjust based on layout */
+  z-index: 1; /* Ensure it's above the background */
+  transform: translateX(50px); /* Move slightly right */
+}
+
+/* Styling for img2 */
+.img2-background {
+  position: absolute;
+  width: 325px;
+  height: 385px;
+  top: 70px;
+  left: 120px;
+  gap: 0px;
+  border-radius: 40px 0px 0px 0px;
+  opacity: 0px;
+
+  /* margin-top: 180px; Adjust based on layout */
+  z-index: 1; /* Ensure it's above the background */
+  transform: translateX(50px); /* Move slightly right */
+}
+
+/* Styling for img3 */
+.img3 {
+  position: relative;
+  width: 282px;
+  height: 250px;
+  top: 260px;
+  left: 230px;
+  gap: 0px;
+  border-radius: 40px 0px 0px 0px;
+  opacity: 0px;
+
+  /* margin-top: 20px; Adjust gap between img2 and img3 */
+  z-index: 2; /* Layer above img2 */
+  transform: translateX(70px); /* Slight shift */
+}
