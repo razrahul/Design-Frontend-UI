@@ -17,8 +17,13 @@ const TextImageSlider = ({ slides, autoplaySpeed = 3000 }) => {
     arrows: false,
   };
 
+  // for background
+  //bg-gradient-to-b from-white via-orange-100 to-white  
+  // for border
+  //hover:border-2 border-white
+
   return (
-    <div className="w-full max-w-5xl mx-auto   bg-gradient-to-b from-white via-orange-100 to-white">
+    <div className="w-full max-w-5xl mx-auto  ">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index}>

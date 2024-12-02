@@ -1,7 +1,7 @@
 /* Footer.css */
 .footer {
     background-color: #fcf8e8; /* Light beige background */
-    padding: 40px 20px;
+    padding: 40px 10px;
     font-family: 'Arial', sans-serif;
   }
   
@@ -9,8 +9,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px;
+    gap: 50px;
+    max-width: 1400px;
     margin: 0 auto;
   }
   
@@ -77,11 +77,13 @@
     margin-top: 40px;
     border-top: 1px solid #ddd;
     padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
     font-size: 0.8rem;
     color: #666;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   .footer-links span {

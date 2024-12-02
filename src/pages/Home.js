@@ -21,12 +21,6 @@ import Footer from "../components/footer/intex.js";
     <ReviewsPage />
     <ContactBanner />
     <Footer />
-
-    <div>
-      <h2 className="text-3xl font-bold  text-center">
-        Welcome to Home Page I am Here
-      </h2>
-    </div>
     </>
    
   );
