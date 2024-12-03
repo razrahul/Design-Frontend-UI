@@ -1,0 +1,24 @@
+/* Slider container */
+.slick-slider {
+    overflow: hidden;
+  }
+  
+  /* Individual slides */
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for immersive scrolling */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Dots for navigation */
+  .slick-dots li button:before {
+    color: gray;
+    font-size: 12px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: black;
+  }
+  

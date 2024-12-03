@@ -1,0 +1,103 @@
+/* OurServices.css */
+.ourservices{
+    font-size: 1.8em;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .panel {
+    height: 85vh; /* Set the height to 60% of the viewport height */
+    width: 75vw; /* Set the width to 70% of the viewport width */
+    margin: 20px auto; /* Add space on left and right side and center the panel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 45px; /* Optional: Adds rounded corners */
+    position: relative; /* Required for z-index to work */
+    z-index: 0; /* Ensures panels are above footer */
+  }
+  
+  .panel.blue {
+    background-color: orange;
+  }
+  
+  .panel.turquoise {
+    background-color: #C1C1C1;
+  }
+  
+  .panel.green {
+    background-color: #A4B2FF;
+  }
+  
+  .panel.bordeaux {
+    background-color: #A4B2FF;
+  }
+  
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between; /* Ensures left and right sides are spaced */
+    
+  }
+  
+  /* .left {
+    background-color:#FFF6DE ;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .right {
+    border-radius: 0 45px 45px 0;
+    height: 100%;
+    width: 100%; /* Right side also takes 45% of the panel width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right img {
+    max-width: 65vw; /* Ensure the image fits within the right div */
+    max-height: 60vh; /* Ensure the image doesn't exceed the height of the div */
+    object-fit: cover; /* Maintains aspect ratio of image */
+  }
+  
+ 
+  .left {
+    background-color: #FFF6DE;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.left h2 {
+    font-size: 2.5em; 
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    padding: 0px 80px; 
+    text-align: center;
+    line-height: 1.1;
+}
+
+.left p {
+    font-size: 1.5em;
+    /* font-weight: 400;  */
+    /* color: black; */
+    margin-top: 20px; 
+    padding: 0px 80px; 
+    text-align: center;
+    line-height: 1.3;
+}
