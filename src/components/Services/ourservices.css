@@ -1,13 +1,34 @@
 /* OurServices.css */
+
+.ourservices_main{
+    /* background: #FEEBDC80; */
+    background-color: #ffffff;
+    height: 50%; 
+}
 .ourservices{
-    font-size: 1.8em;
+    font-size: 2.1rem;
     color: black;
+    font-weight: 500;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
+    
   }
+
+  .ourservices::after {
+    content: '';
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: #f9a825;
+    margin-top: 5px;
+    position: relative;
+    left: 46%;
+  }
+  
+  
   .panel {
     height: 85vh; /* Set the height to 60% of the viewport height */
     width: 75vw; /* Set the width to 70% of the viewport width */
@@ -83,7 +104,7 @@
 }
 
 .left h2 {
-    font-size: 2.5em; 
+    font-size: 2.6em; 
     font-weight: 500;
     color: black;
     margin: 0;
@@ -93,11 +114,11 @@
 }
 
 .left p {
-    font-size: 1.5em;
+    font-size: 1.1rem;
     /* font-weight: 400;  */
     /* color: black; */
     margin-top: 20px; 
     padding: 0px 80px; 
     text-align: center;
-    line-height: 1.3;
+    line-height: 1.6;
 }

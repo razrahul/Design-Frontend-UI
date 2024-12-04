@@ -23,7 +23,7 @@ import OurServices from "../components/Services/OurServices.js";
     {/* <Slider /> */}
     {/* <OurServices /> */}
 
-    {/* <WhyChooseUs /> */}
+    <WhyChooseUs />
     
     <ReviewsPage />
     <ContactBanner />
